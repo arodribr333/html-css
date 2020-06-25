@@ -1,0 +1,26 @@
+.#{$namespace}layout{
+    &__row{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        &--primary{
+            padding: 0 rem(90);
+        }
+    }
+    &--basis-20{
+        flex-basis: remcalc(20%, " - ", 20px);
+    }
+    &--basis-40{
+        flex-basis: remcalc(40%, " - ", 20px);
+    }
+    &--basis-60{
+        flex-basis: remcalc(60%, " - ", 20px);
+    }
+    &--basis-80{
+        flex-basis: remcalc(80%, " - ", 20px);
+    }
+    &--basis-100{
+        flex-basis: 100%;
+    }
+}

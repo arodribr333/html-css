@@ -1,0 +1,58 @@
+///*-------------------------------------------------------------------------
+//   #SETTINGS CONFIG
+//--------------------------------------------------------------------------*/
+
+$namespace: 'pf-';
+
+///*-----------------------------------------------------
+///     # CONFIG - FONTS
+///-----------------------------------------------------*/
+$font-normal: consolas, Arial, sans-serif;
+
+
+///*-------------------------------------------------------------------------
+//   	# BASIC VALUE FOR PROJECT
+//--------------------------------------------------------------------------*/
+
+$base-font-size	            : 	16   		                                                    ;
+$base-line-height           : 	100% 		                                                    ;
+$base-background-color      : 	white		                                                  ;
+$width-wrapper              : 	960                                                             ;
+$base-spacing               :	30			                                                    ;
+$base_separation            :   16 !default                                                    ;
+
+
+///*-------------------------------------------------------------------------
+//   	# INCLUDE OBJECTS
+//--------------------------------------------------------------------------*/
+$include__texts                 : true  !default;
+///*-----------------------------------------------------
+///		# CONFIG - GRID - FLOAT
+///-----------------------------------------------------*/
+
+$responsive--config	: true;
+
+$wrapper-fluid	: 	false;
+
+$x-small		: 	320 ;
+$small			: 	480 ;
+$medium         : 	768 ;
+$large			: 	1024;
+$max-large      : 	1280;
+
+$margin-row     : 	true;
+
+$col-num-xl     :	12;
+$col-num-lg     :	12;
+$col-num-md     :	12;
+$col-num-sm     :	12;
+$col-num-xs     :	12;
+
+$gutter-xl		: 	$base-spacing;
+$gutter-lg		:	$base-spacing;
+$gutter-md		: 	$base-spacing;
+$gutter-sm		:	$base-spacing;
+$gutter-sx		:	$base-spacing;
+///*-----------------------------------------------------
+///		# END - CONFIG - GRID - FLOAT
+///-----------------------------------------------------*/

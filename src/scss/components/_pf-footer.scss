@@ -1,0 +1,9 @@
+.#{$namespace}footer{
+    background-color: color(primary);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: rem(30) rem(90) rem(37);
+    margin-top: rem(50);
+}

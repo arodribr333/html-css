@@ -1,0 +1,9 @@
+.#{$namespace}header{
+    background-color: color(primary);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 rem(90);
+    margin-bottom: rem(50);
+}

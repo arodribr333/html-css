@@ -1,0 +1,32 @@
+.#{$namespace}infobox{
+
+    &__row{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    &__column{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+    }
+
+    &__figure{
+        width: 100%;
+        &-img{
+            max-width: 100%;
+        }
+    }
+
+    &--item-3{
+        flex-basis: calc(33% - 40px);
+    }
+    &--item-full{
+        flex-basis: 100%;
+    }
+
+    &--bg-primary{
+        background: color(secondary);
+        padding: rem(20) rem(25) rem(25);
+    }
+}

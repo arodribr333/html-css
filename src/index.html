@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Píldoras formativas HTML5 y CSS3</title>
+    <link rel="stylesheet" href="css/styles.css"></link>
+</head>
+<body>
+    <header class="pf-header">
+        <h1>Píldora formativa</h1>
+        <h2>HTML5 + CSS3 + ACCESIBILIDAD</h2>
+        <nav class="pf-header__navegation">
+            <h3>Navegación</h3>
+            <ul class="pf-header-navegation__list">
+                <li><a class="pf-header__navegation__link" href="#" title="HTML5">HTML5</a></li>
+                <li><a class="pf-header__navegation__link" href="#" title="CSS3">CSS3</a></li>
+                <li><a class="pf-header__navegation__link" href="#" title="Accesibilidad">Accesibilidad</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="pf-layout__row pf-layout__row--primary">
+        <section class="pf-layout--basis-80">
+            <h3 class="pf-heading-primary">Bloques de formación:</h3>
+            <div class="pf-infobox__row">
+                <article class="pf-infobox--item-3 pf-infobox--bg-primary">
+                    <h4 class="pf-infobox__title">HTML5</h4>
+                    <header class="pf-infobox__header">
+                        <figure class="pf-infobox__figure">
+                            <img class="pf-infobox__figure-img" src="img/html5-logo.svg" alt="HTML5">
+                            <figcaption class="pf-infobox__caption">Fig.1 - HTML5</figcaption>
+                        </figure>
+                    </header>
+                    <p class="pf-infobox__text">Desarrollo de <span>estructuras semánticas</span></p>
+                </article>
+                <article class="pf-infobox--item-3 pf-infobox--bg-primary">
+                    <h4 class="pf-infobox__title">CSS3</h4>
+                    <header class="pf-infobox__header">
+                        <figure class="pf-infobox__figure">
+                            <img class="pf-infobox__figure-img" src="img/css3-logo.svg" alt="HTML5">
+                            <figcaption class="pf-infobox__caption">Fig.3 - CSS3</figcaption>
+                        </figure>
+                    </header>
+                    <p class="pf-infobox__text">Metodología <span>BEM + ITCSS</span></p>
+                </article>
+                <article class="pf-infobox--item-3 pf-infobox--bg-primary">
+                    <h4 class="pf-infobox__title">ACCESIBILIDAD</h4>
+                    <p class="pf-infobox__text"><mark class="pf-mark">Web Accesible</mark></p>
+                </article>
+            </div>
+        </section>
+        <aside class="pf-layout--basis-20">
+            <div class="pf-infobox__column pf-infobox--bg-primary">
+                <h3 class="pf-heading-primary">Otros contenidos</h3>
+                <section class="pf-infobox--item-full">
+                    <h4 class="pf-heading-second ary">Suscríbete</h4>
+                    <form name="subcribe" validate>
+                        <fieldset>
+                            <legend>Suscripción a newsletter</legend>
+                            <label for="news">Ingresa tu email</label>
+                            <input id="news" name="mail" type="email">
+                        </fieldset>
+                        <button type="submit" title="Enviar">Enviar</button>
+                    </form>
+                </section>
+                <section class="pf-infobox--item-full">
+                    <h4 class="pf-heading-second ary">Déjanos tu opinión</h4>
+                    <form name="subcribe" validate>
+                        <fieldset>
+                            <legend>Grado de satisfacción</legend>
+                            <label for="satisfaccion-01">Muy contento</label>
+                            <input id="satisfaccion-01" name="satisfaccion" type="radio" checked>
+                            <label for="satisfaccion-02">Poco contento</label>
+                            <input id="satisfaccion-02" name="satisfaccion" type="radio">
+                        </fieldset>
+                        <button type="submit" title="Enviar">Enviar</button>
+                    </form>
+                </section>
+            </div>
+        </aside>
+    </main>
+    <footer class="pf-footer">
+        <p>De <time>12:00</time> a <time>13:00</time></p>
+        <p>Repositorio: <a target="_blank" href="https://github.com/arodribr333/html-css" title="arodribr333">arodribr333</a></p>
+    </footer>
+</body>
+</html>

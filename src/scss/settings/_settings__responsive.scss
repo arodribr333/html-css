@@ -1,0 +1,29 @@
+///*------------------------------------
+//    #SETTINGS-RESPONSIVE
+//--------------------------------------*/
+
+// Hold our breakpoint aliases and conditions in a list.
+//
+// These can be invoked later on via the `media-query()` mixin found in
+// `_tools.responsive`.
+
+$breakpoints: (
+        "xs"            "screen and (max-width: 29.96rem)",
+        "sm"            "screen and (min-width: 29.96rem) and (max-width: 47.96rem)",
+        "mobile"        "screen and (max-width: 47.96rem)",
+        "md"    	"screen and (min-width: 47.96rem) and (max-width: 63.96rem)",
+        "lg"      	"screen and (min-width: 63.96rem) and (max-width: 79.96rem)",
+        "xl"            "screen and (min-width: 79.96rem)",
+        "xxl"           "screen and (min-width: 120rem)",
+        "desktop"       "screen and (min-width: 48rem)",
+        "mobile-landscape"      "screen and (max-width: 47.96rem) and (max-height: 26rem)",
+        "print"      "print",
+) !default;
+
+
+
+
+
+// If we have included this file, set a variable to tell the rest of the
+// framework that we have some responsive settings.
+$responsive-settings: true;

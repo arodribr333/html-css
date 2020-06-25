@@ -1,0 +1,14 @@
+/* GENERAL SIZES */
+
+$text_size-01      : 32;
+$text_size-02      : 24;
+$text_size-03      : 18;
+$text_size-04      : 16;
+$text_size-05      : 13;
+
+
+body{
+    font-family: $font-normal;
+    font-size: rem($base-font-size);
+    background: color(background-primary);
+}

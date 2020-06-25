@@ -1,0 +1,36 @@
+///*----------------------------------------------------------------
+//    #PIXEL TO REM
+//------------------------------------------------------------------*/
+
+@function rem($pixels, $context: $base-font-size) {
+	@return #{$pixels/$context}rem
+}
+
+$separations: (
+    '': rem($base_separation),
+    -none: 0,
+    -xxsmall: rem($base_separation - 12),    // 4
+    -xsmall: rem($base_separation - 8),      // 8
+    -normal: rem($base_separation - 6),      // 10
+    -small: rem($base_separation - 4),       // 12
+    -smedium: rem($base_separation + 4),     // 20
+    -xmedium: rem($base_separation * 1.5),   // 24
+    -medium: rem($base_separation * 2),      // 32
+	-large: rem($base_separation * 2 + 8),   // 40
+    -big: rem($base_separation * 3),         // 48
+);
+
+$rules: (
+    // paddings
+    p: padding,
+    pt: padding-top,
+    pb: padding-bottom,
+    pl: padding-left,
+    pr: padding-right,
+    // margins
+    m: margin,
+    mt: margin-top,
+    mb: margin-bottom,
+    ml: margin-left,
+    mr: margin-right
+);
