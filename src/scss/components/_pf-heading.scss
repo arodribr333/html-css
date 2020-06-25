@@ -1,0 +1,7 @@
+.#{$namespace}heading{
+    &--primary{
+        font-size: rem($text_size-02);
+        
+        margin-bottom: rem(30);
+    }
+}
