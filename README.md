@@ -10,5 +10,5 @@ HTML and CSS3 lessons
 ```
 
 ```
-  $> gulp serve
+  $> npm run hard-live
 ```
