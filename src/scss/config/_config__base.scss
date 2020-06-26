@@ -5,10 +5,17 @@ $text_size-02      : 24;
 $text_size-03      : 18;
 $text_size-04      : 16;
 $text_size-05      : 13;
+$text_size-06      : 20;
 
 
 body{
     font-family: $font-normal;
     font-size: rem($base-font-size);
     background: color(background-primary);
+    overflow-x: hidden;
+}
+a{
+    &:visited{
+        color: color(text-primary);
+    }
 }

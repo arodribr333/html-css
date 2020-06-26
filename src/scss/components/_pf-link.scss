@@ -1,0 +1,8 @@
+.#{namespace}link{
+    font-size: rem($text_size-04);
+    color: color(text-primary);
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}

@@ -49,7 +49,7 @@ module.exports = function(gulp, projectConfigurations, gulpConfig, config) {
         gulp.watch('**/*.scss', ['clean','sass','build-css']);
     });
 
-    gulp.task('serve', 'Builds the code, the server will be started locally and a watch set up to allow live reload', ['sass', 'server', 'watch']);
+    gulp.task('hard-live', 'Builds the code, the server will be started locally and a watch set up to allow live reload', ['sass', 'server', 'watch']);
     
 
 };

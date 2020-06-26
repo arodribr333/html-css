@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "live-server": "gulp serve",
+    "hard-live": "gulp hard-live",
     "webpack-build": "node_modules/.bin/webpack --mode production",
     "webpack-serve": "webpack-dev-server --mode development"
   },

@@ -1,0 +1,24 @@
+/*------------------------------------*\
+    #SEPARATIONS
+\*------------------------------------*/
+
+// moved $separtions & $rules variables to scss\tools\_tools__pixel-to-rem.scss
+
+@each $separation, $separations-size in $separations {
+    @each $rule-classname, $rule in $rules {
+        .#{$namespace}#{$rule-classname}#{$separation} {
+            #{$rule}: $separations-size;
+        }
+    }
+}
+@each $breakpoint, $query in $breakpoints {
+    @include media-query($breakpoint) {
+        @each $separation, $separations-size in $separations {
+            @each $rule-classname, $rule in $rules {
+                .#{$namespace}#{$rule-classname}#{$separation}-#{$breakpoint} {
+                    #{$rule}: $separations-size;
+                }
+            }
+        }
+    }
+}

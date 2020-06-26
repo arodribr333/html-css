@@ -1,7 +1,11 @@
 .#{$namespace}heading{
     &--primary{
         font-size: rem($text_size-02);
-        
-        margin-bottom: rem(30);
+        font-weight: bold;
+        color: color(text-primary);
+    }
+    &--type-01{
+        font-size: rem($text_size-03);
+        color: color(blue-01);
     }
 }

@@ -1,9 +1,32 @@
 .#{$namespace}footer{
     background-color: color(primary);
+    width: 100%;
+    min-height: rem(90);
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    align-items: center;
-    padding: rem(30) rem(90) rem(37);
+    align-items: stretch;
+    padding: 0 rem(90);
     margin-top: rem(50);
+
+    &__item{
+        align-self: center;
+    }
+    &__text{
+        font-size: rem(20);
+        color: color(yellow-01);
+    }
+
+    &__link{
+        color: color(secondary);
+        text-decoration: none;
+        font-size: rem($text_size-06);
+        &:hover{
+            color: color(blue-01);
+            text-decoration: underline;
+        }
+        &:visited{
+            color: color(secondary);
+        }
+    }
 }

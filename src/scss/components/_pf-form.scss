@@ -1,0 +1,23 @@
+.#{$namespace}form{
+    &__fieldset{
+        margin-top: rem(15);
+    }
+    &__content{
+        width: 100%;
+        display: block;
+    }
+
+    &__button{
+        margin-top: rem(15);
+        background-color: color(button-bg);
+        color: color(secondary);
+        align-self: center;
+        height: rem(40);
+        padding: 0 rem(27);
+        border-radius: 0;
+        border: none;
+        &:hover{
+            background-color: color(primary);
+        }
+    }
+}

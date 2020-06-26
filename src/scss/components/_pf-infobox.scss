@@ -13,13 +13,23 @@
 
     &__figure{
         width: 100%;
+        margin-top: rem(15);
+        text-align: center;
         &-img{
-            max-width: 100%;
+            max-width: rem(133);
         }
+    }
+
+    &__bottom{
+        margin-top: rem(18);
     }
 
     &--item-3{
         flex-basis: calc(33% - 40px);
+        margin: rem(30) rem(60) 0 0;
+        &:nth-child(3n){
+            margin-right: 0;
+        }
     }
     &--item-full{
         flex-basis: 100%;

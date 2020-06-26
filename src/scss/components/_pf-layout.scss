@@ -1,5 +1,6 @@
 .#{$namespace}layout{
     &__row{
+        width: 100%;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
@@ -8,17 +9,38 @@
             padding: 0 rem(90);
         }
     }
+    &--basis-10{
+        flex-basis: remcalc(10%, " - ", 20px);
+    }
     &--basis-20{
         flex-basis: remcalc(20%, " - ", 20px);
+    }
+    &--basis-25{
+        flex-basis: remcalc(25%, " - ", 20px);
+    }
+    &--basis-30{
+        flex-basis: remcalc(30%, " - ", 20px);
     }
     &--basis-40{
         flex-basis: remcalc(40%, " - ", 20px);
     }
+    &--basis-50{
+        flex-basis: remcalc(50%, " - ", 20px);
+    }
     &--basis-60{
         flex-basis: remcalc(60%, " - ", 20px);
     }
+    &--basis-70{
+        flex-basis: remcalc(70%, " - ", 20px);
+    }
+    &--basis-75{
+        flex-basis: remcalc(75%, " - ", 20px);
+    }
     &--basis-80{
         flex-basis: remcalc(80%, " - ", 20px);
+    }
+    &--basis-90{
+        flex-basis: remcalc(90%, " - ", 20px);
     }
     &--basis-100{
         flex-basis: 100%;

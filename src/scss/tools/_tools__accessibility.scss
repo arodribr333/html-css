@@ -1,0 +1,6 @@
+.#{$namespace}accessibility{
+    &__text{
+        position: absolute !important;
+        left: rem(-999999) !important;
+    }
+}
