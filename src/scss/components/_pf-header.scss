@@ -74,3 +74,84 @@
         }
     }
 }
+
+@include media-query('lg'){
+    .#{$namespace}header{
+        padding: 0 rem(40);
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        &__title{
+            font-size: rem($text_size-03);
+            flex-basis: 100%;
+            margin-left: 0;
+        }
+        &__left{
+            max-width: 45%;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+    }
+}
+@include media-query('md'){
+    .#{$namespace}header{
+        padding: 0 rem(30);
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        &__title{
+            font-size: rem($text_size-04);
+            flex-basis: 100%;
+            margin-left: 0;
+            display: inline;
+        }
+        &__left{
+            max-width: inherit;
+            flex-basis: 100%;
+            flex-direction: column;
+            justify-content: center;
+            margin: rem(20) 0;
+        }
+        &__navegation{
+            width: 100%;
+            &-list{
+                width: 100%;
+                justify-content: center;
+            }
+            &-link{
+                font-size: rem($text-size-03);
+                padding-top: rem(10);
+                padding-bottom: rem(10);
+            }
+        }
+    }
+}
+@include media-query('mobile'){
+    .#{$namespace}header{
+        padding: 0 rem(20);
+        flex-wrap: wrap;
+        &__title{
+            font-size: rem($text_size-04);
+            flex-basis: 100%;
+            margin-left: 0;
+            text-align: center;
+        }
+        &__left{
+            max-width: inherit;
+            flex-basis: 100%;
+            display: block;
+            justify-content: flex-start;
+            margin: rem(20) 0;
+        }
+        &__navegation{
+            width: 100%;
+            &-list{
+                width: 100%;
+                justify-content: center;
+            }
+            &-link{
+                font-size: rem($text-size-04);
+                padding-top: rem(10);
+                padding-bottom: rem(10);
+            }
+        }
+    }
+}

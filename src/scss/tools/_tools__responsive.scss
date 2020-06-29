@@ -8,7 +8,7 @@
 $responsive-settings: false !default;
 
 @if ($responsive-settings == false) {
-  @warn "Oops! Have you included a responsive settings file?";
+  @warn "Oops! Have you included a responsive settings file?"
 }
 
 // A simple mixin to quickly generate whole media queries from the aliases and

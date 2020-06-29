@@ -3,13 +3,12 @@
 @import "settings/settings__config";
 @import "settings/settings__colors";
 @import "settings/settings__responsive";
-@import "settings/settings__separations";
-@import "settings/settings__rules";
 @import "settings/settings__font-sizes";
 
 /* TOOLS */
 @import "tools/tools__colors";
 @import "tools/tools__pixel-to-rem";
+@import "tools/tools__rules";
 @import "tools/tools__responsive";
 @import "tools/tools__separations";
 @import "tools/tools__calc";

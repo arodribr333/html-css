@@ -3,6 +3,5 @@
 //------------------------------------------------------------------*/
 
 @function rem($pixels, $context: $base-font-size) {
-	@return #{$pixels/$context}rem
+	@return #{$pixels/$context}rem;
 }
-

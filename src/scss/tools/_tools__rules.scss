@@ -1,4 +1,5 @@
 
+/* SEPARATIONS */
 $separations: (
     '': rem($base_separation),
     -none: 0,
@@ -11,4 +12,20 @@ $separations: (
     -medium: rem($base_separation * 2),      // 32
 	-large: rem($base_separation * 2 + 8),   // 40
     -big: rem($base_separation * 3),         // 48
+);
+
+/* RULES */
+$rules: (
+    // paddings
+    p: padding,
+    pt: padding-top,
+    pb: padding-bottom,
+    pl: padding-left,
+    pr: padding-right,
+    // margins
+    m: margin,
+    mt: margin-top,
+    mb: margin-bottom,
+    ml: margin-left,
+    mr: margin-right
 );

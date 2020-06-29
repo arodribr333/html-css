@@ -1,266 +1,10 @@
 /* SETTINGS */
 
-/*--------------------------------
-	#RESET
---------------------------------*/
-
-html,
-body,
-span,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-article,
-aside,
-details,
-dialog,
-figcaption,
-figure,
-footer,
-header,
-main,
-nav,
-section,
-summary,
-audio,
-canvas,
-video,
-mark,
-code,
-kbd,
-pre,
-samp,
-a,
-abbr,
-acronym,
-address,
-code,
-del,
-dfn,
-em,
-strong,
-img,
-q,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-div,
-timer {
-  margin: 0;
-  padding: 0;
-  border: none;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 100%;
-  font-family: inherit;
-  vertical-align: baseline;
-  text-decoration: none;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body {
-  padding: 0 !important;
-}
-
-input,
-button,
-select,
-textarea {
-  margin: 0;
-  padding: 0;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 100%;
-  font-family: inherit;
-  vertical-align: baseline;
-  text-decoration: none;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-ul,
-ol,
-dl {
-  list-style: none;
-}
-
-/*-----------------------------------
-	#TAGS HTML5 BROWSER NO SUPPORT
--------------------------------------*/
-
-article,
-aside,
-details,
-dialog,
-figcaption,
-figure,
-footer,
-header,
-main,
-nav,
-section,
-summary,
-timer {
-  display: block;
-}
-
-audio,
-canvas,
-video {
-  display: inline-block;
-}
-
-audio:not([controls]) {
-  display: none;
-  height: 0;
-}
-
-dfn {
-  font-style: italic;
-}
-
-mark {
-  background-color: #ff0;
-  color: #000;
-}
-
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, serif;
-  font-size: 1.6em;
-}
-
-/*-----------------------------------
-	#LINKS
--------------------------------------*/
-
-a {
-  cursor: pointer;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-/*-----------------------------------
-	#LINKS COLOR ORIGINAL
--------------------------------------*/
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:focus,
-a:active {
-  text-decoration: none;
-}
-
-/*-----------------------------------
-	#HEADINGS, WITH AND WITHOUT LINK
--------------------------------------*/
-
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-  color: inherit;
-}
-
-/*-----------------------------------
-	#BUTTONS
--------------------------------------*/
-
-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  cursor: pointer;
-}
-
-button[disabled],
-input[disabled] {
-  cursor: default;
-}
-
-/*-----------------------------------
-	#RESET TABLE
--------------------------------------*/
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/*------------------------------------------------------------------------
-    #BOX-SIZING
--------------------------------------------------------------------------*/
-
-/**
- * More sensible default box-sizing:
- * css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
- */
-
-html {
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
 /* TOOLS */
 
-.pf-accessibility__text {
-  position: absolute !important;
-  left: -62499.9375rem !important;
-}
+/* SEPARATIONS */
 
-/* BASE */
-
-/* GENERAL SIZES */
-
-body {
-  font-family: consolas, Arial, sans-serif;
-  font-size: 1rem;
-  background: #d5e5ff;
-  overflow-x: hidden;
-}
-
-a:visited {
-  color: #0044aa;
-}
+/* RULES */
 
 /*------------------------------------*\
     #SEPARATIONS
@@ -706,6 +450,263 @@ a:visited {
   margin-right: 3rem;
 }
 
+/* GENERIC ELEMENTS CONFIG*/
+
+/*--------------------------------
+	#RESET
+--------------------------------*/
+
+html,
+body,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+article,
+aside,
+details,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section,
+summary,
+audio,
+canvas,
+video,
+mark,
+code,
+kbd,
+pre,
+samp,
+a,
+abbr,
+acronym,
+address,
+code,
+del,
+dfn,
+em,
+strong,
+img,
+q,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+div,
+timer {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 !important;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+dl {
+  list-style: none;
+}
+
+/*-----------------------------------
+	#TAGS HTML5 BROWSER NO SUPPORT
+-------------------------------------*/
+
+article,
+aside,
+details,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section,
+summary,
+timer {
+  display: block;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1.6em;
+}
+
+/*-----------------------------------
+	#LINKS
+-------------------------------------*/
+
+a {
+  cursor: pointer;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+/*-----------------------------------
+	#LINKS COLOR ORIGINAL
+-------------------------------------*/
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+/*-----------------------------------
+	#HEADINGS, WITH AND WITHOUT LINK
+-------------------------------------*/
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+/*-----------------------------------
+	#BUTTONS
+-------------------------------------*/
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+}
+
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/*-----------------------------------
+	#RESET TABLE
+-------------------------------------*/
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*------------------------------------------------------------------------
+    #BOX-SIZING
+-------------------------------------------------------------------------*/
+
+/**
+ * More sensible default box-sizing:
+ * css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+ */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* GENERAL SIZES */
+
+body {
+  font-family: consolas, Arial, sans-serif;
+  font-size: 1rem;
+  background: #d5e5ff;
+  overflow-x: hidden;
+}
+
+a:visited {
+  color: #0044aa;
+}
+
+/* OBJECTS */
+
 /* COMPONENTS */
 
 .pf-header {
@@ -1061,6 +1062,8 @@ a:visited {
   padding: 1.25rem 1.5625rem 1.5625rem;
 }
 
+/* MEDIAQUERYS */
+
 .namespacelink {
   font-size: 1rem;
   color: #0044aa;
@@ -1069,6 +1072,13 @@ a:visited {
 
 .namespacelink:hover {
   text-decoration: underline;
+}
+
+/* UTILITIES */
+
+.pf-accessibility__text {
+  position: absolute !important;
+  left: -62499.9375rem !important;
 }
 
 @media screen and (min-width: 48rem) {
@@ -2836,6 +2846,70 @@ a:visited {
 
   .pf-mr-big-mobile {
     margin-right: 3rem;
+  }
+
+  .pf-header {
+    padding: 0 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  .pf-header__title {
+    font-size: 1rem;
+    flex-basis: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .pf-header__left {
+    max-width: inherit;
+    flex-basis: 100%;
+    display: block;
+    justify-content: flex-start;
+    margin: 1.25rem 0;
+  }
+
+  .pf-header__navegation {
+    width: 100%;
+  }
+
+  .pf-header__navegation-list {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .pf-header__navegation-link {
+    font-size: 1rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+  }
+
+  .pf-footer {
+    padding: 0 1.25rem;
+  }
+
+  .pf-layout__row--primary {
+    padding: 0 1.25rem;
+  }
+
+  .pf-layout--basis-25 {
+    flex-basis: 100%;
+  }
+
+  .pf-layout--basis-75 {
+    flex-basis: 100%;
+  }
+
+  .pf-infobox--item-3 {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+
+  .pf-infobox--item-3:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .pf-infobox--item-3:nth-child(3n) {
+    margin-right: 0;
   }
 }
 
@@ -4605,6 +4679,71 @@ a:visited {
   .pf-mr-big-md {
     margin-right: 3rem;
   }
+
+  .pf-header {
+    padding: 0 1.875rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .pf-header__title {
+    font-size: 1rem;
+    flex-basis: 100%;
+    margin-left: 0;
+    display: inline;
+  }
+
+  .pf-header__left {
+    max-width: inherit;
+    flex-basis: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1.25rem 0;
+  }
+
+  .pf-header__navegation {
+    width: 100%;
+  }
+
+  .pf-header__navegation-list {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .pf-header__navegation-link {
+    font-size: 1.125rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+  }
+
+  .pf-footer {
+    padding: 0 1.875rem;
+  }
+
+  .pf-layout__row--primary {
+    padding: 0 1.875rem;
+  }
+
+  .pf-layout--basis-25 {
+    flex-basis: calc(35% - 20px);
+  }
+
+  .pf-layout--basis-75 {
+    flex-basis: calc(65% - 20px);
+  }
+
+  .pf-infobox--item-3 {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+
+  .pf-infobox--item-3:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .pf-infobox--item-3:nth-child(3n) {
+    margin-right: 0;
+  }
 }
 
 @media screen and (min-width: 63.96rem) and (max-width: 79.96rem) {
@@ -5046,6 +5185,53 @@ a:visited {
 
   .pf-mr-big-lg {
     margin-right: 3rem;
+  }
+
+  .pf-header {
+    padding: 0 2.5rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .pf-header__title {
+    font-size: 1.125rem;
+    flex-basis: 100%;
+    margin-left: 0;
+  }
+
+  .pf-header__left {
+    max-width: 45%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .pf-footer {
+    padding: 0 2.5rem;
+  }
+
+  .pf-layout__row--primary {
+    padding: 0 2.5rem;
+  }
+
+  .pf-layout--basis-25 {
+    flex-basis: calc(35% - 20px);
+  }
+
+  .pf-layout--basis-75 {
+    flex-basis: calc(65% - 20px);
+  }
+
+  .pf-infobox--item-3 {
+    flex-basis: calc(50% - 20px);
+    margin-right: 2.5rem;
+  }
+
+  .pf-infobox--item-3:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .pf-infobox--item-3:nth-child(3n) {
+    margin-right: 2.5rem;
   }
 }
 

@@ -30,3 +30,19 @@
         }
     }
 }
+
+@include media-query('lg'){
+    .#{$namespace}footer{
+        padding: 0 rem(40);
+    }
+}
+@include media-query('md'){
+    .#{$namespace}footer{
+        padding: 0 rem(30);
+    }
+}
+@include media-query('mobile'){
+    .#{$namespace}footer{
+        padding: 0 rem(20);
+    }
+}
