@@ -769,7 +769,7 @@ a:visited {
 .pf-header__navegation-link:hover {
   text-decoration: underline;
   background-color: #d5e5ff;
-  color: #0044aa;
+  color: #3771c8;
 }
 
 .pf-header__navegation-link--active {
@@ -904,7 +904,7 @@ a:visited {
 
 .pf-form__button {
   margin-top: 0.9375rem;
-  background-color: #0044aa;
+  background-color: #3771c8;
   color: #ffcc00;
   align-self: center;
   height: 2.5rem;
@@ -930,7 +930,7 @@ a:visited {
   font-family: consolas, Arial, sans-serif;
   font-size: 0.8125rem;
   color: #0044aa;
-  border: 0.0625rem solid #0044aa;
+  border: 0.0625rem solid #3771c8;
   border-radius: 0;
   padding: 0.9375rem 0.8125rem;
   order: 0;
