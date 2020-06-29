@@ -2,20 +2,19 @@
 /* SETTINGS */
 @import "settings/settings__config";
 @import "settings/settings__colors";
-@import "settings/settings__reset";
 @import "settings/settings__responsive";
-@import "settings/settings__box-sizing";
 
 /* TOOLS */
 @import "tools/tools__calc";
 @import "tools/tools__colors";
 @import "tools/tools__pixel-to-rem";
 @import "tools/tools__responsive";
-@import "tools/tools__accessibility";
+@import "tools/tools__separations";
 
-/* BASE */
+/* GENERIC ELEMENTS CONFIG*/ 
+@import "config/config__reset";
+@import "config/config__box-sizing";
 @import "config/config__base";
-@import "config/config__separations";
 
 /* COMPONENTS */
 @import "components/pf-header";
@@ -27,3 +26,7 @@
 @import "components/pf-input-radio";
 @import "components/pf-infobox";
 @import "components/pf-link";
+
+
+/* UTILITIES */
+@import "utilities/utilities__accessibility";
