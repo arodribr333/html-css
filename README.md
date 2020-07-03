@@ -20,9 +20,12 @@ To run local server with scss compilation watch
 HTML and CSS3 lessons
 # design url
 <https://zpl.io/bAoEqPP>
-## SEMANTIC HTML
-## HTML
+
+# HTML
 <https://www.w3schools.com/html/>
+
+# SEMANTIC HTML
+
 ## HTML SEMÁNTICO
 <https://www.w3schools.com/html/html5_semantic_elements.asp>
 
