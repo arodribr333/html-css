@@ -20,13 +20,13 @@ To run local server with scss compilation watch
 HTML and CSS3 lessons
 # design url
 <https://zpl.io/bAoEqPP>
-# SEMANTIC HTML
-# HTML
+## SEMANTIC HTML
+## HTML
 <https://www.w3schools.com/html/>
-# HTML SEMÁNTICO
+## HTML SEMÁNTICO
 <https://www.w3schools.com/html/html5_semantic_elements.asp>
 
-# ETIQUETAS ANTERIORES
+## ETIQUETAS ANTERIORES
 - h1, h2, h3, h4, h5, h6…
 - div
 - P
@@ -36,7 +36,7 @@ HTML and CSS3 lessons
 - button
 - table > tr > td
 
-# ETIQUETAS SEMÁNTICAS
+## ETIQUETAS SEMÁNTICAS
 - main
 - header
 - nav
@@ -48,7 +48,7 @@ HTML and CSS3 lessons
 - mark
 - footer
 
-# ELEMENTOS DE FORMULARIO
+## ELEMENTOS DE FORMULARIO
 - form
   - novalidate
 - fieldset
