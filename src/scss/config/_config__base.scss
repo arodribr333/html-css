@@ -11,3 +11,12 @@ a{
         color: color(text-primary);
     }
 }
+
+[class^="eva-"]{
+  transform: translate(0, 0);
+  text-rendering: auto;
+  font: normal normal 400 14px/1 Eva-Icons;
+  font-size: inherit;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}

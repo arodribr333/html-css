@@ -4,6 +4,7 @@
 @import "settings/settings__colors";
 @import "settings/settings__responsive";
 @import "settings/settings__font-sizes";
+@import "settings/settings__icon-font";
 
 /* TOOLS */
 @import "tools/tools__colors";
@@ -18,7 +19,11 @@
 @import "config/config__box-sizing";
 @import "config/config__base";
 
+
 /* OBJECTS */
+/* ICON FONTS */
+/* EVA */
+@import "../../node_modules/eva-icons/style/scss/eva-icons";
 
 /* COMPONENTS */
 @import "components/pf-header";

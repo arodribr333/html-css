@@ -17,14 +17,14 @@ module.exports = function(gulp, projectConfigurations, gulpConfig, config) {
     var paths = gulpConfig;
     var srcPaths = config.paths;
 
-    gulp.task('sass', function () {
+    gulp.task('sass', function() {
         return gulp.src('./src/scss/**/**/*.scss')
             .pipe(sass().on('error', sass.logError))
             .pipe(gcmq())
             .pipe(gulp.dest('./src/css'))
             .pipe(bs.stream());
     });
-    
+
     gulp.task('server', function() {
         bs.init({
             server: './',
@@ -35,21 +35,26 @@ module.exports = function(gulp, projectConfigurations, gulpConfig, config) {
         });
     });
 
-    gulp.task('clean', 'Deletes the build', function (cb) {
+    gulp.task('clean', 'Deletes the build', function(cb) {
         return del([paths.dist], cb);
     });
 
-    gulp.task('build-css', false, function () {
+    gulp.task('build-css', false, function() {
         return gulp.src(paths.css_src_all)
-        // Dump all files into build folder
+            // Dump all files into build folder
             .pipe(gulp.dest(paths.dist));
     });
 
-    gulp.task('watch', function () {
-        gulp.watch('**/*.scss', ['clean','sass','build-css']);
+    gulp.task('icon-fonts', false, function() {
+        return gulp.src(['./node_modules/eva-icons/style/fonts/*'])
+            .pipe(gulp.dest('./src/fonts'));
+    });
+
+    gulp.task('watch', function() {
+        gulp.watch('**/*.scss', ['clean', 'sass', 'build-css']);
     });
 
     gulp.task('hard-live', 'Builds the code, the server will be started locally and a watch set up to allow live reload', ['sass', 'server', 'watch']);
-    
+
 
 };
