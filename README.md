@@ -2,7 +2,7 @@
 # Instructions
 To install node dependencies
 ```
-  $> npm-install
+  $> npm install
 ```
 
 To initialize the project 
@@ -189,6 +189,7 @@ Flex en bootstrap: También podemos utilizar las clases para construcción de co
 <https://getbootstrap.com/docs/4.5/utilities/flex/>
 
 ## FLEX CONTAINER
+<https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
 
 - display: esto define un contenedor flexible; en línea o bloque dependiendo del valor dado. Permite un contexto flexible para todos sus hijos directos.
 
@@ -213,6 +214,10 @@ Flex en bootstrap: También podemos utilizar las clases para construcción de co
 ```
 
 - flex-flow: esta es una abreviatura de las propiedades de dirección flex y flex-wrap, que juntas definen los ejes principal y transversal del contenedor flex. El valor predeterminado es row nowrap.
+
+```
+  flex-flow: row wrap | row nowrap | row-reverse wrap | row-reverse nowrap | column wrap | column nowrap | column-reverse wrap | column-reverse nowrap;
+```
 
 - justify-content: esto define la alineación a lo largo del eje principal. Ayuda a distribuir las sobras de espacio libre extra cuando todos los elementos flex de una línea son inflexibles o son flexibles pero han alcanzado su tamaño máximo. También ejerce cierto control sobre la alineación de los elementos cuando desbordan la línea.
 
