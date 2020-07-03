@@ -1,0 +1,20 @@
+.#{$namespace}box {
+    background: color(primary);
+    padding: 0 rem($text_size-02) rem($text_size-02);
+    position: relative;
+    &:before,
+    &:after {
+        content: "";
+        background-color: color(primary);
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: remcalc(100%, ' - ', rem(1));
+    }
+    &:after {
+        right: inherit;
+        left: remcalc(100%, ' - ', rem(1));
+    }
+}

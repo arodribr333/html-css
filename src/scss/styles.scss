@@ -1,5 +1,5 @@
-
 /* SETTINGS */
+
 @import "settings/settings__config";
 @import "settings/settings__colors";
 @import "settings/settings__responsive";
@@ -7,6 +7,7 @@
 @import "settings/settings__icon-font";
 
 /* TOOLS */
+
 @import "tools/tools__colors";
 @import "tools/tools__pixel-to-rem";
 @import "tools/tools__rules";
@@ -14,18 +15,24 @@
 @import "tools/tools__separations";
 @import "tools/tools__calc";
 
-/* GENERIC ELEMENTS CONFIG*/ 
+/* GENERIC ELEMENTS CONFIG*/
+
 @import "config/config__reset";
 @import "config/config__box-sizing";
 @import "config/config__base";
 
-
 /* OBJECTS */
+
+
 /* ICON FONTS */
+
+
 /* EVA */
+
 @import "../../node_modules/eva-icons/style/scss/eva-icons";
 
 /* COMPONENTS */
+
 @import "components/pf-header";
 @import "components/pf-footer";
 @import "components/pf-layout";
@@ -35,7 +42,8 @@
 @import "components/pf-input-radio";
 @import "components/pf-infobox";
 @import "components/pf-link";
-
+@import "components/pf-box";
 
 /* UTILITIES */
+
 @import "utilities/utilities__accessibility";

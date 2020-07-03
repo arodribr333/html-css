@@ -2766,6 +2766,7 @@ a:visited {
   flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: stretch;
+  margin-bottom: 0;
 }
 
 .pf-header__navegation-item:first-child .pf-header__navegation-link {
@@ -2814,6 +2815,8 @@ a:visited {
   align-items: stretch;
   padding: 0 5.625rem;
   margin-top: 3.125rem;
+  position: fixed;
+  bottom: 0;
 }
 
 .pf-footer__item {
@@ -2850,6 +2853,11 @@ a:visited {
 
 .pf-layout__row--primary {
   padding: 0 5.625rem;
+}
+
+.pf-layout--x-hidden {
+  overflow-x: hidden;
+  margin-bottom: 6.25rem;
 }
 
 .pf-layout--basis-10 {
@@ -3036,6 +3044,11 @@ a:visited {
   font-size: 0.8125rem;
 }
 
+.pf-infobox {
+  width: 100%;
+  margin-top: 1.875rem;
+}
+
 .pf-infobox__row {
   display: flex;
   flex-flow: row wrap;
@@ -3090,6 +3103,29 @@ a:visited {
 
 .namespacelink:hover {
   text-decoration: underline;
+}
+
+.pf-box {
+  background: #0044aa;
+  padding: 0 1.5rem 1.5rem;
+  position: relative;
+}
+
+.pf-box:before,
+.pf-box:after {
+  content: "";
+  background-color: #0044aa;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: calc(100% - 0.0625rem);
+}
+
+.pf-box:after {
+  right: inherit;
+  left: calc(100% - 0.0625rem);
 }
 
 /* UTILITIES */

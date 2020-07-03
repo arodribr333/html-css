@@ -1,4 +1,4 @@
-.#{$namespace}footer{
+.#{$namespace}footer {
     background-color: color(primary);
     width: 100%;
     min-height: rem(90);
@@ -8,42 +8,43 @@
     align-items: stretch;
     padding: 0 rem(90);
     margin-top: rem(50);
-
-    &__item{
+    position: fixed;
+    bottom: 0;
+    &__item {
         align-self: center;
     }
-    &__text{
+    &__text {
         font-size: rem(20);
         color: color(yellow-01);
     }
-
-    &__link{
+    &__link {
         color: color(secondary);
         text-decoration: none;
         font-size: rem($text_size-06);
-        &:hover{
+        &:hover {
             color: color(blue-01);
             text-decoration: underline;
         }
-        &:visited{
+        &:visited {
             color: color(secondary);
         }
     }
-
 }
 
-@include media-query('lg'){
-    .#{$namespace}footer{
+@include media-query('lg') {
+    .#{$namespace}footer {
         padding: 0 rem(40);
     }
 }
-@include media-query('md'){
-    .#{$namespace}footer{
+
+@include media-query('md') {
+    .#{$namespace}footer {
         padding: 0 rem(30);
     }
 }
-@include media-query('mobile'){
-    .#{$namespace}footer{
+
+@include media-query('mobile') {
+    .#{$namespace}footer {
         padding: 0 rem(20);
     }
 }

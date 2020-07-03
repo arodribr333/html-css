@@ -1,84 +1,85 @@
-.#{$namespace}infobox{
-
-    &__row{
+.#{$namespace}infobox {
+    width: 100%;
+    margin-top: rem(30);
+    &__row {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
     }
-    &__column{
+    &__column {
         display: flex;
         flex-flow: column wrap;
         justify-content: flex-start;
     }
-
-    &__figure{
+    &__figure {
         width: 100%;
         margin-top: rem(15);
         text-align: center;
-        &-img{
+        &-img {
             max-width: rem(133);
         }
     }
-
-    &__bottom{
+    &__bottom {
         margin-top: rem(18);
     }
-
-    &--item-3{
+    &--item-3 {
         flex-basis: calc(33% - 40px);
         margin: rem(30) rem(60) 0 0;
-        &:nth-child(3n){
+        &:nth-child(3n) {
             margin-right: 0;
         }
     }
-    &--item-full{
+    &--item-full {
         flex-basis: 100%;
     }
-
-    &--bg-primary{
+    &--bg-primary {
         background: color(secondary);
         padding: rem(20) rem(25) rem(25);
     }
 }
 
+
 /* MEDIAQUERYS */
-@include media-query('lg'){
-    .#{$namespace}infobox{
-        &--item-3{
+
+@include media-query('lg') {
+    .#{$namespace}infobox {
+        &--item-3 {
             flex-basis: calc(50% - 20px);
             margin-right: rem(40);
-            &:nth-child(2n){
+            &:nth-child(2n) {
                 margin-right: 0;
             }
-            &:nth-child(3n){
+            &:nth-child(3n) {
                 margin-right: rem(40);
             }
         }
     }
 }
-@include media-query('md'){
-    .#{$namespace}infobox{
-        &--item-3{
+
+@include media-query('md') {
+    .#{$namespace}infobox {
+        &--item-3 {
             flex-basis: 100%;
             margin-right: 0;
-            &:nth-child(2n){
+            &:nth-child(2n) {
                 margin-right: 0;
             }
-            &:nth-child(3n){
+            &:nth-child(3n) {
                 margin-right: 0;
             }
         }
     }
 }
-@include media-query('mobile'){
-    .#{$namespace}infobox{
-        &--item-3{
+
+@include media-query('mobile') {
+    .#{$namespace}infobox {
+        &--item-3 {
             flex-basis: 100%;
             margin-right: 0;
-            &:nth-child(2n){
+            &:nth-child(2n) {
                 margin-right: 0;
             }
-            &:nth-child(3n){
+            &:nth-child(3n) {
                 margin-right: 0;
             }
         }

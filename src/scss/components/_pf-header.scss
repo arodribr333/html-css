@@ -1,4 +1,4 @@
-.#{$namespace}header{
+.#{$namespace}header {
     background-color: color(primary);
     width: 100%;
     display: flex;
@@ -8,43 +8,42 @@
     padding: 0 rem(90);
     margin-bottom: rem(50);
     min-height: rem(90);
-
-    &__left{
+    &__left {
         max-width: 50%;
         display: flex;
         flex-flow: row nowrap;
         align-items: center;
     }
-    &__title{
+    &__title {
         font-size: rem($text_size-01);
         color: color(yellow-01);
         text-transform: uppercase;
-        &--ml{
+        &--ml {
             margin-left: rem(15);
         }
     }
-    &__navegation{
+    &__navegation {
         display: flex;
         align-items: stretch;
-        &-list{
+        &-list {
             display: flex;
             flex-flow: row nowrap;
             justify-content: flex-start;
             align-items: stretch;
-
+            margin-bottom: 0;
         }
-        &-item{
-            &:first-child{
-                .#{$namespace}header{
-                    &__navegation{
-                        &-link{
+        &-item {
+            &:first-child {
+                .#{$namespace}header {
+                    &__navegation {
+                        &-link {
                             border-left: none;
                         }
                     }
                 }
             }
         }
-        &-link{
+        &-link {
             background: color(secondary);
             // background: color(yellow-02);
             display: flex;
@@ -55,68 +54,69 @@
             text-decoration: none;
             text-transform: uppercase;
             border-left: rem(1) solid color(primary);
-            &:hover{
+            &:hover {
                 text-decoration: underline;
                 background-color: color(background-primary);
                 color: color(button-bg);
             }
-            &--active{
+            &--active {
                 background: color(background-primary);
                 color: color(blue-01);
-                &:hover{
+                &:hover {
                     cursor: inherit;
                     text-decoration: none;
                 }
             }
         }
-        &-text{
+        &-text {
             align-self: center;
         }
     }
 }
 
-@include media-query('lg'){
-    .#{$namespace}header{
+@include media-query('lg') {
+    .#{$namespace}header {
         padding: 0 rem(40);
         flex-wrap: wrap;
         justify-content: flex-start;
-        &__title{
+        &__title {
             font-size: rem($text_size-03);
             flex-basis: 100%;
             margin-left: 0;
         }
-        &__left{
+        &__left {
             max-width: 45%;
             flex-wrap: wrap;
             justify-content: flex-start;
         }
     }
 }
-@include media-query('md'){
-    .#{$namespace}header{
+
+@include media-query('md') {
+    .#{$namespace}header {
         padding: 0 rem(30);
         flex-wrap: wrap;
         justify-content: flex-start;
-        &__title{
+        &__title {
             font-size: rem($text_size-04);
             flex-basis: 100%;
             margin-left: 0;
             display: inline;
         }
-        &__left{
+        &__left {
             max-width: inherit;
             flex-basis: 100%;
             flex-direction: column;
             justify-content: center;
             margin: rem(20) 0;
         }
-        &__navegation{
+        &__navegation {
             width: 100%;
-            &-list{
+            &-list {
                 width: 100%;
                 justify-content: center;
             }
-            &-link{
+            &-link {
                 font-size: rem($text-size-03);
                 padding-top: rem(10);
                 padding-bottom: rem(10);
@@ -124,30 +124,31 @@
         }
     }
 }
-@include media-query('mobile'){
-    .#{$namespace}header{
+
+@include media-query('mobile') {
+    .#{$namespace}header {
         padding: 0 rem(20);
         flex-wrap: wrap;
-        &__title{
+        &__title {
             font-size: rem($text_size-04);
             flex-basis: 100%;
             margin-left: 0;
             text-align: center;
         }
-        &__left{
+        &__left {
             max-width: inherit;
             flex-basis: 100%;
             display: block;
             justify-content: flex-start;
             margin: rem(20) 0;
         }
-        &__navegation{
+        &__navegation {
             width: 100%;
-            &-list{
+            &-list {
                 width: 100%;
                 justify-content: center;
             }
-            &-link{
+            &-link {
                 font-size: rem($text-size-04);
                 padding-top: rem(10);
                 padding-bottom: rem(10);
