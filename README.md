@@ -285,3 +285,20 @@ FLEX ITEMS
   ```
     align-self: auto | flex-start | flex-end | center | baseline | stretch;
   ```
+  
+# WAI-ARIA
+
+- [Niveles accesibilidad](https://www.w3.org/WAI/WCAG21/Understanding/conformance#levels)
+
+- [Roles](https://www.w3.org/TR/wai-aria-1.1/#usage_intro)
+
+- [widgets attrs](https://www.w3.org/TR/wai-aria-1.1/#usage_introhttps://www.w3.org/TR/wai-aria-1.1/#attrs_widgets)
+
+- [States and properties](https://www.w3.org/TR/wai-aria-1.1/#state_prop_values)
+
+- [WAI-ARIA Practices](https://www.w3.org/TR/wai-aria-practices/)
+
+- [Modal Dialog example](https://www.w3.org/TR/wai-aria-practices/examples/dialog-modal/dialog.html)
+
+- [Blog de Olga Carreras](https://olgacarreras.blogspot.com/2007/09/wai-aria-introduccion-referencias.html)
+
